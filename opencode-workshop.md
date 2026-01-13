@@ -319,16 +319,25 @@ opencode
 
 **By the end of this session, you should be able to:**
 
-✅ **Explain** the spectrum of AI coding assistance and where OpenCode fits
-✅ **Compare** terminal vs IDE development workflows and their trade-offs  
-✅ **Install** and **configure** OpenCode on Linux with proper dependencies
-✅ **Use** essential OpenCode commands (`/init`, `@`, `/undo`, `/share`)
-✅ **Switch** between Plan mode (controlled) and Build mode (autonomous)
-✅ **Navigate** codebases using file references (@ symbol) and context awareness
-✅ **Create** and **modify** AGENTS.md files for project guidance
-✅ **Apply** OpenCode to any project type (web, CLI, API, etc.)
-✅ **Debug** and **iterate** on code using `/undo` and conversational refinement
-✅ **Share** sessions for collaboration and code review
+✅ **Explain** the spectrum of AI coding assistance and where OpenCode fits.
+
+✅ **Compare** terminal vs IDE development workflows and their trade-offs.
+
+✅ **Install** and **configure** OpenCode on Linux with proper dependencies.
+
+✅ **Use** essential OpenCode commands (`/init`, `@`, `/undo`, `/share`).
+
+✅ **Switch** between Plan mode (controlled) and Build mode (autonomous).
+
+✅ **Navigate** codebases using file references (@ symbol) and context awareness.
+
+✅ **Create** and **modify** AGENTS.md files for project guidance.
+
+✅ **Apply** OpenCode to any project type (web, CLI, API, etc.).
+
+✅ **Debug** and **iterate** on code using `/undo` and conversational refinement.
+
+✅ **Share** sessions for collaboration and code review.
 
 ---
 
