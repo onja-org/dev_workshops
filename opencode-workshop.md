@@ -49,6 +49,10 @@ echo "test clipboard" | wl-copy
 ```bash
 curl -fsSL https://opencode.ai/install | bash
 ```
+You should see like the following:
+
+<img width="850" height="467" alt="image" src="https://github.com/user-attachments/assets/00e93ee5-42ba-4261-b4f7-0de01cee6f5b" />
+
 
 **Method 2: NPM (Alternative)**
 ```bash
@@ -60,6 +64,30 @@ npm install -g opencode-ai
 opencode --version
 # Should output version information
 ```
+
+### Troubleshooting if command not found:
+
+It could happen that the installation was successful but when you run `opencode --version`, you get a `command not found` error.
+Here's what you can do to overcome this issue:
+1. Confirm whether OpenCode was installed at all
+```bash
+find $HOME -type f -name "opencode" 2>/dev/null
+```
+2. If it shows the path where the binary is added, you can either temporarely or permanently add it to PATH:
+   - Temporarily add it to PATH (works for current terminal session):
+     ```
+     export PATH="$HOME/.opencode/bin:$PATH"
+     ```
+     Test it:
+     ```
+     which opencode
+     opencode --version
+     ```
+   - Permanently add it to PATH so you don’t have to do this every time:
+     ```
+     echo 'export PATH="$HOME/.opencode/bin:$PATH"' >> ~/.bashrc
+     source ~/.bashrc
+     ```
 
 ### Step 3: (not required) Configure OpenCode Free Model (5 minutes)
 
