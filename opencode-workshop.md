@@ -1,8 +1,6 @@
 # OpenCode 1-Hour Workshop: AI-Powered Terminal Development
 
-**Target Audience:** Intermediate Developers  
 **Focus:** Project-Agnostic Development with OpenCode  
-**Setup:** Provided Laptops with Linux Environment  
 **AI Provider:** OpenCode Free Model (Big Pickle)
 
 ---
@@ -95,7 +93,7 @@ opencode
 ### Welcome & Workshop Goals
 - Quick introductions
 - What we'll accomplish today
-- Why terminal-based AI development matters in 2025
+- Why terminal-based AI development matters in 2026
 
 ### The Spectrum of AI Coding Assistance - Degrees of Freedom
 
@@ -142,7 +140,7 @@ opencode
 - **Context persistence:** Remembers project structure across conversations
 - **Multi-tool integration:** File operations, search, git, LSP understanding
 
-### Terminal vs IDE Development in 2025
+### Terminal vs IDE Development in 2026
 
 **Why Terminal-Based Development is Resurgent:**
 - **Performance:** Faster startup, lower resource usage
